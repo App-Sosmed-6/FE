@@ -1,8 +1,8 @@
-import Layout from "@/components/layout"
+import LayoutHome from "@/components/layout-home"
 
 const index = () => {
   return (
-    <Layout/>
+    <LayoutHome />
   )
 }
 
