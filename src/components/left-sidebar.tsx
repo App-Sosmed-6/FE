@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 import { 
     Avatar, 
     AvatarFallback, 
     AvatarImage
   } from "@/components/ui/avatar";
-  
-  import { Button } from "./ui/button";
+
+import { Button } from "./ui/button";
 
 const LeftSidebar = () => {
   return (
@@ -21,7 +23,7 @@ const LeftSidebar = () => {
           <p className="text-2xl font-medium">Profile</p>
         </div>
           <Button className="bg-[#57BAAB] w-56 h-14 rounded-3xl">
-            <p className="text-white text-2xl font-semibold">Post</p>
+            <Link to="/post-details" className="text-white text-2xl font-semibold">Post</Link>
           </Button>
       </div>
 

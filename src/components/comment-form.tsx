@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { 
     Avatar, 
     AvatarFallback, 
@@ -8,8 +10,8 @@ const CommentForm = () => {
   return (
     <div>
       <div className="grid grid-cols-6">
-        <div className="col-start-2 col-span-4">
-          <p className="py-5">View more comments</p>
+        <div className="col-start-2 col-span-4 py-5">
+          <Link to="/story-details">View more comments</Link>
         </div>
         <div className="col-start-2">
           <Avatar>
