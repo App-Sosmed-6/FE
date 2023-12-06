@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "@/components/layout";
 import HeroSection from "@/pages/auth";
+import HomePage from "@/pages/posting/home-page";
  
 export default function Router() {
   const router = createBrowserRouter([
     {
         path: "/",
-        element: <Layout />,
+        element: <HomePage />,
       },
       {
         path: "/HeroSection",
