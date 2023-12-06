@@ -12,7 +12,10 @@ module.exports = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+        xl: "1440px",
       },
     },
     extend: {
@@ -21,6 +24,9 @@ module.exports = {
       },
       colors: {
         border: "hsl(var(--border))",
+        green1: "#D0F0E4",
+        green2: "#57BAAB",
+        blue1: "#160E4D",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
