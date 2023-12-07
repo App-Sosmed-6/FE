@@ -1,11 +1,10 @@
-# React + TypeScript + Vite
+# Social Media Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Application about Social Media using React ts (Vite) style with tailwind.
 
-Currently, two official plugins are available:
+# Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Social Media Apps is an application used to share stories, articles, or photos.
 
 ## Expanding the ESLint configuration
 
