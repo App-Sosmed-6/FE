@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import PostDetails from "@/pages/posting/post-details";
 
 import { 
     Avatar, 
@@ -14,6 +15,14 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
+
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTrigger,
+  } from "@/components/ui/dialog";
 
 import { Button } from "./ui/button";
 
@@ -39,11 +48,23 @@ const LeftSidebar = () => {
           </div>
         </Link>
 
-        <Link to="/post-details">
-          <Button className="bg-[#57BAAB] w-56 h-14 rounded-3xl">
-            <p className="text-white text-2xl font-semibold">Post</p>
-          </Button>
-        </Link>
+        <Dialog>
+          <DialogTrigger>
+            <Button className="bg-[#57BAAB] w-56 h-14 rounded-3xl">
+              <p className="text-white text-2xl font-semibold">
+                Post
+              </p>
+            </Button>
+          </DialogTrigger>
+            <DialogContent>
+              <DialogHeader>
+                <DialogDescription>
+                  <PostDetails/>
+                </DialogDescription>
+              </DialogHeader>
+          </DialogContent>
+        </Dialog>
+
       </div>
 
       <DropdownMenu>
@@ -54,7 +75,7 @@ const LeftSidebar = () => {
               JB
             </AvatarFallback>
           </Avatar>
-          <p className="text-base font-bold ml-2">Jude Beliinghem</p>
+          <p className="text-base font-bold ml-2">Jude Beliingham</p>
           </DropdownMenuTrigger>
                 <DropdownMenuContent className="mr-9">
                 <DropdownMenuLabel>My Account</DropdownMenuLabel>

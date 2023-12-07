@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import StoryDetails from "../posting/story-details";
 
 import { 
     Avatar, 
@@ -13,12 +13,29 @@ import {
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
 
+  import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTrigger,
+  } from "@/components/ui/dialog";
+
 const ProfileCommentForm = () => {
   return (
     <div>
       <div className="grid grid-cols-6 pb-2">
         <div className="col-start-2 col-span-4 py-5">
-          <Link to="/story-details">View more comments</Link>
+          <Dialog>
+            <DialogTrigger>View more comments</DialogTrigger>
+              <DialogContent>
+                <DialogHeader>
+                  <DialogDescription>
+                   <StoryDetails/>
+                  </DialogDescription>
+                </DialogHeader>
+              </DialogContent>
+          </Dialog>
         </div>
         <div className="col-start-2">
           <Avatar>
@@ -62,7 +79,7 @@ const ProfileCommentForm = () => {
             </Avatar>
           </div>
           <div className="col-span-4 text-black">
-            <h4 className="text-base font-bold">Jude Bellinghem</h4>
+            <h4 className="text-base font-bold">Jude Bellingham</h4>
             <input
               type="text"
               placeholder="Add a comment..."

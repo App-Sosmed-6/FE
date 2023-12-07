@@ -6,10 +6,9 @@ import {
 
 const StoryDetails = () => {
   return (
-    <div className="w-1/2 bg-white font-poppins items-center justify-center rounded-xl">
-      <div className="flex mx-auto items-center justify-between h-14 bg-[#FAFAFA]">
-        <p className="mx-auto">Jude's Post</p>
-        <img src="src/assets/icon-footer-6.png" alt="close icon" className="pr-3"/>
+    <div className="w-full h-96 bg-white font-poppins items-center justify-center rounded-xl overflow-y-auto">
+      <div className="flex mx-auto items-center h-14 bg-[#FAFAFA]">
+        <p className="mx-auto text-base font-semibold text-black">Jude's Post</p>
       </div>
 
       <div className="grid grid-cols-6 pt-7">
@@ -20,7 +19,7 @@ const StoryDetails = () => {
           </Avatar>
         </div>
         <div className="col-span-5 text-black">
-          <h4 className="text-base font-bold">Jude Bellinghem</h4>
+          <h4 className="text-base font-bold">Jude Bellingham</h4>
           <p className="text-xs">05 Desember 2023 at 19.21</p>
           <p className="w-full text-base font-light py-2">
             Hola Madridistas! It is the proudest day of my life to join the greatest club in the history of the game. I will give absolutely everything I have to help this team win. Thank you for the amazing welcome. HALA MADRID!!!
@@ -53,7 +52,7 @@ const StoryDetails = () => {
             </Avatar>
           </div>
           <div className="col-span-4 text-black">
-            <h4 className="text-base font-bold">Jude Bellinghem</h4>
+            <h4 className="text-base font-bold">Jude Bellingham</h4>
             <input
               type="text"
               placeholder="Add a comment..."

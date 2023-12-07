@@ -9,7 +9,7 @@ import {
 
 const PostDetails = () => {
   return (
-    <div className="w-1/2 container bg-slate-400 h-72 flex items-center justify-center rounded-xl">
+    <div className="w-full container bg-white h-72 flex items-center justify-center rounded-xl">
         <div className="w-full mx-auto">
           <div className="flex pb-3">
             <Avatar>

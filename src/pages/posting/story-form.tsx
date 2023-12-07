@@ -14,7 +14,7 @@ const StoryForm = () => {
       </Avatar>
     </div>
     <div className="col-span-5 text-black">
-      <h4 className="text-base font-bold">Jude Bellinghem</h4>
+      <h4 className="text-base font-bold">Jude Bellingham</h4>
       <p className="text-xs">05 Desember 2023 at 19.21</p>
       <p className="w-full text-base font-light py-2">
         Hola Madridistas! It is the proudest day of my life to join the greatest club in the history of the game. I will give absolutely everything I have to help this team win. Thank you for the amazing welcome. HALA MADRID!!!
