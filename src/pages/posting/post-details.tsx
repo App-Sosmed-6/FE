@@ -5,7 +5,7 @@ import {
   } from "@/components/ui/avatar";
   
   import { Separator } from "@/components/ui/separator";
-  import { Button } from "./ui/button";
+  import { Button } from "../../components/ui/button";
 
 const PostDetails = () => {
   return (

@@ -1,8 +1,8 @@
 import LeftSidebar from "@/components/left-sidebar";
 import RightSidebar from "@/components/right-sidebar";
-import PostForm from "@/components/post-form";
-import StoryForm from "@/components/story-form";
-import CommentForm from "@/components/comment-form";
+import PostForm from "@/pages/posting/post-form";
+import StoryForm from "@/pages/posting/story-form";
+import CommentForm from "@/pages/posting/comment-form";
 
 const HomePage = () => {
   return (

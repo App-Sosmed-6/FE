@@ -22,8 +22,8 @@ const CommentForm = () => {
           <div className="col-span-4 text-black">
             <h4 className="text-base font-bold">Darwin Nunez</h4>
             <p className="text-xs">05 Desember 2023 at 20.01</p>
-            <p className="w-full text-base font-light py-2 pr-7">
-            Hola Madridistas! It is the proudest day of my life to join the greatest club in the history of the game.
+            <p className="w-96 text-sm font-light py-2 pr-7">
+            Kelas capt manyala ee! 
             </p>
           </div>
         </div>
