@@ -8,6 +8,7 @@ Social Media Apps is an application used to share stories, articles, or photos.
 
 🧩 **Fiture**
 The user should be able to:
+
 ✨ Super user:
 - Login
 - Register
