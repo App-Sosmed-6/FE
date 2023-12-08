@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# 🔔 Social Media Apps
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web Application about Social Media using React ts (Vite) style with tailwind.
 
-Currently, two official plugins are available:
+# 🌐 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Social Media Apps is an application used to share stories, articles, or photos.
 
-## Expanding the ESLint configuration
+🧩 **Fiture**
+The user should be able to:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✨ Super user:
+- Login
+- Register
+- User Management (create, edit, delete, read)
+- Post management (posting, editing, and deleting)
+- Show Profile
+- Edit Profile
+- Logout
 
-- Configure the top-level `parserOptions` property like this:
+🛠️ Built with
+- React.js with Vite
+- React Router Dom
+- Tailwind CSS
+- Shadcn UI
+- Axios
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+🌐 Links
+- GitHub URL: https://github.com/App-Sosmed-6/FE
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+💻 Figma Design
+
+![Hero Section - Dekstop](https://github.com/App-Sosmed-6/FE/assets/142146086/7588e304-e0a5-466b-a7b6-c9433349a6b9)
+
+![Home Section - Dekstop-2](https://github.com/App-Sosmed-6/FE/assets/142146086/f402a95b-7d56-4234-81bf-4abc0c2fd770)
+
+![Profile Section - Dekstop-3](https://github.com/App-Sosmed-6/FE/assets/142146086/673b6841-fd6b-44cd-af65-057518114c84)
+
+🤖 Authors
+- @Gerardusdavid
+- @andreputra8
