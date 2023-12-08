@@ -18,6 +18,8 @@ const PostForm = () => {
     const body = {
       description: description
     };
+
+    console.log(body);
   }
   
   return (

@@ -33,7 +33,7 @@ import {
                     <p className="ml-6 whitespace-nowrap text-xs font-normal">judebellingham@gmail.com</p>
                 </div>
             </div>
-            <Button className="bg-[#57BAAB] w-20 h-9 rounded-3xl mt-10">Post</Button>
+            <Button className="bg-[#57BAAB] w-20 h-9 rounded-3xl mt-10 text-xs">Edit Profile</Button>
         </div>
       </div>
     )
