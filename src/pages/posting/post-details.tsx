@@ -8,8 +8,9 @@ import {
   import { Button } from "../../components/ui/button";
 
 const PostDetails = () => {
+
   return (
-    <div className="w-full container bg-white h-72 flex items-center justify-center rounded-xl">
+    <div className="w-full container bg-white h-72 flex items-center justify-center rounded-xl ">
         <div className="w-full mx-auto">
           <div className="flex pb-3">
             <Avatar>

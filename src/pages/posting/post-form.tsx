@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 import {
   Avatar,
   AvatarFallback,
@@ -8,6 +10,16 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "../../components/ui/button";
 
 const PostForm = () => {
+  const [description, setDescription] = useState("");
+
+
+  function handlePostDetails(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const body = {
+      description: description
+    };
+  }
+  
   return (
     <div>
       <p className="text-center py-3 text-base font-medium border-b border-gray-300">
@@ -15,7 +27,7 @@ const PostForm = () => {
       </p>
 
       <div className="mx-auto flex p-5 w-full border-b border-gray-300">
-        <div className="w-full">
+        <form className="w-full" onSubmit={(e => handlePostDetails(e))}>
           <div className="flex pb-3">
             <Avatar>
               <AvatarImage src="#" />
@@ -25,6 +37,8 @@ const PostForm = () => {
               type="text"
               placeholder="What is happening..."
               className="ml-6 text text-xl font-light border-transparent focus:outline-none focus:border-[desiredColor]"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
             />
           </div>
 
@@ -37,9 +51,9 @@ const PostForm = () => {
               <img src="src/assets/icon-footer-4.png" alt="icon select image" className="w-6 h-6"/>
               <p className="ml-6 whitespace-nowrap">Select image...</p>
             </div>
-            <Button className="bg-[#57BAAB] w-20 h-9 rounded-3xl">Post</Button>
+            <Button type="submit" className="bg-[#57BAAB] w-20 h-9 rounded-3xl">Post</Button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   )
